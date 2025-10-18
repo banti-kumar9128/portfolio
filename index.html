@@ -230,21 +230,25 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
                         <div class="fields">
+
+                        <input type="hidden" name="access_key" value="40484781-1fa7-4527-9790-3f4ef92a960c">
+
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" required name="first_name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" required name='first_email'>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name='first_text'>
                         </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
+                        <!-- <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required name='first_message' textarea>
+                        </div> -->
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>

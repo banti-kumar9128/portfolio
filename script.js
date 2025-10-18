@@ -69,5 +69,11 @@ $(document).ready(function(){
                 nav: false
             }
         }
-    });
+    })
 });
+
+
+const ram =document.getElementById("#sub")
+ram.addEventListener(click,()=>{
+    alert("my name vikash")
+})
