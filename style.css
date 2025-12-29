@@ -501,6 +501,10 @@ a.dig{
     width: 85%;
 }
 
+.skills-content .right .node::before {
+    width: 70%;
+}
+
 .skills-content .right .mysql::before {
     width: 70%;
 }
